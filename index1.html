@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Website Example</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/small.css" />
+  </head>
+
+  <body>
+    <div class="navbar">
+      <ul>
+        <li><a href="index1.html">Home</a></li>
+        <li><a href="#aboutbirds">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#">News</a></li>
+
+        <img src="img/img.jpg" alt="logo" width="50px" height="50px" />
+      </ul>
+    </div>
+
+    <h1>Welcome to Bird World</h1>
+    <div class="container">
+      <div class="sample">
+        <img src="img/img.jpg" alt="Bird" height="300px" width="300px"  >
+        <img src="img/img1.jpg" alt="Bird" height="300px" width="300px" >
+        <img src="img/img2.jpg" alt="Bird" height="300px" width="300px" >
+        <img src="img/img3.jpg" alt="Bird" height="300px" width="300px" >
+        
+        <hr>
+        <dl><u>Bird</u></dl>
+        <dt>A flying Creature</dt>
+        <dd>
+          One of the smallest bird is the bee hummingbird.Females weigh 2.6 g
+          (0.092 oz) and are 6.1 cm (2.4 in) long, and are slightly larger than
+          males, which have an average weight of 1.95 g (0.069 oz) and length of
+          5.5 cm (2.2 in).[4] Like all hummingbirds, it is a swift, strong
+          flier. The male has a green pileum and bright red throat, iridescent
+          gorget with elongated lateral plumes, bluish upper parts, and the rest
+          of the underparts mostly greyish white.[2][5] Compared to other small
+          hummingbirds, which often have a slender appearance, the bee
+          hummingbird looks rounded and plump.
+        </dd>
+      </div>
+    </div>
+    <div id="aboutbirds">
+      <h1>About Birds</h1>
+      <h2>Smallest Birds</h2>
+      <ul class="small">
+        <li>
+          <a href="https://en.wikipedia.org/wiki/Bee_hummingbird">
+            <img src="img/beehum.jpg" alt="logo" width="50px" height="50px" /><br>Bee
+            hummingbird</a
+          >
+        </li>
+        <li>
+          <a href="https://en.wikipedia.org/wiki/Red-cheeked_cordon-bleu">
+            <img src="img/redcheek.jpg" alt="logo" width="50px" height="50px" /><br>Red-Cheeked Cordon-Bleu</a
+          >
+        </li>
+        <li>
+            <a href="https://en.wikipedia.org/wiki/Verdin">
+              <img src="img/verdin.jpg" alt="logo" width="50px" height="50px" /><br>Verdin</a
+            >
+            </li>
+            <li>
+                <a href="https://en.wikipedia.org/wiki/Lesser_goldfinch">
+                  <img src="img/goldfinch.jpg" alt="logo" width="50px" height="50px" /><br>Lesser Goldfinch</a
+                >
+                </li>
+      </ul>
+      <h2>Biggest Birds</h2>
+      <ul class="big">
+        <li>
+            <a href="https://en.wikipedia.org/wiki/Bee_hummingbird">
+              <img src="img/ostrich.jpg" alt="logo" width="50px" height="50px"/>  <br> Common ostrich   </a
+            >
+          </li>
+          <li>
+            <a href="https://en.wikipedia.org/wiki/Red-cheeked_cordon-bleu">
+              <img src="img/somali.jpg" alt="logo" width="50px" height="50px" /><br>Somali ostrich</a
+            >
+          </li>
+          <li>
+              <a href="https://en.wikipedia.org/wiki/Verdin">
+                <img src="img/southern.jpg" alt="logo" width="50px" height="50px" /><br>Southern cassowary</a
+              >
+              </li>
+              <li>
+                  <a href="https://en.wikipedia.org/wiki/Lesser_goldfinch">
+                    <img src="img/northern.jpg" alt="logo" width="50px" height="50px" /><br>Northern cassowary</a
+                  >
+                  </li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <input id="info" type="button" value="Form">
+    <div id="myDiv"><br>
+        <form method="POST">
+            FullName:<br>
+            <input type="text" value="" id="name" name="name">
+            </input><br> 
+            Password: <br>
+            <input type="text" value="" id="name" name="name">
+            </input><br>
+            Email:  <br>
+            <input type="text" value="" id="name" name="name">
+            </input><br>
+            Age: <br>
+            <input type="text" value="" id="name" name="name">
+            </input><br>
+            Gender:<br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+            <br><br>
+            <button type="submit">Submit</button>
+            
+        </form>
+    </div>
+
+    <div class="top"><a href="#top">Top</a></div>
+    <footer>
+      <h3 class="con">Contact Information:</h3>
+      <ul class="foot" id="contact">
+        <li><a href="mailto:fly.bird@gmail.com">fly.bird@gmail.com</a></li>
+        <li><a href="tel:+97798421054210">Phone</a></li>
+      </ul>
+    </footer>
+    <script type="text/javascript" src="js/script.js" ></script>
+  </body>
+</html>
