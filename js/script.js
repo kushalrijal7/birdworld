@@ -1,22 +1,36 @@
 var button = document.getElementById("info");
-            var myDiv = document.getElementById("myDiv");
+var myDiv = document.getElementById("myDiv");
+var x = document.getElementById("login");
+var y = document.getElementById("register");
+var z = document.getElementById("btn");
 
-            function show() {
-                myDiv.style.visibility = "visible";
-            }
+function register(){
+    x.style.left = "-400px";
+    y.style.left = "50px";
+    z.style.left = "110px";
+}
+function login(){
+    x.style.left = "50px";
+    y.style.left = "450px";
+    z.style.left = "0";
+}
 
-            function hide() {
-                myDiv.style.visibility = "hidden";
-            }
+function show() {
+  myDiv.style.visibility = "visible";
+}
 
-            function toggle() {
-                if (myDiv.style.visibility === "hidden") {
-                    show();
-                } else {
-                    hide();
-                }
-            }
+function hide() {
+  myDiv.style.visibility = "hidden";
+}
 
-            hide();
+function toggle() {
+  if (myDiv.style.visibility === "hidden") {
+    show();
+  } else {
+    hide();
+  }
+}
 
-            button.addEventListener("click", toggle, false);
+hide();
+
+button.addEventListener("click", toggle, false);

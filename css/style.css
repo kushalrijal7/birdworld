@@ -1,16 +1,20 @@
 body{
     background-color:#AFEEEE;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../img/bg.jpg);
 }
-
 h1{
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-weight: 200px;
+    font-size: 42px;
 }
-h2{
+h2 a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: oblique;
-    color: teal;
+    color: white;
 }
+
 dd{
     font-family: sans-serif;
     color: white;
@@ -20,17 +24,36 @@ dd{
     padding: 50px;
     
 }
+.sample .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .sample:hover .tooltiptext {
+    visibility: visible;
+  }
 .logo{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: chocolate;    
 }
 #myDiv{
-    
     align-items: center;
-    border: 2px solid;
+    border: 6px solid;
     width: 300px;
     height: 300px;
     text-align: center;
+    margin-left: 600px;
+    color: white;
+    font-size: 19px;
 }
 footer{
     width: 100%;
